@@ -15,3 +15,17 @@ Frameplicity renders a page while processing it. Below is a high-level explanati
 **  
 **
 
+In the `NextPreviousPageWidget.php` file that you create, add this function, which displays a button and creates spacing between buttons:
+
+```text
+private function createButton($page,$text) {
+    emit("<a class='button' href=".$page->getURL().">".$text."</a>");
+}
+
+private function createSpacing() {
+    emit("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+}
+```
+
+In NextPreviousPageWidget.php, you will need to use some functions from the Folder class, located in `NextPreviousPage/_Source/Folder.php`. Refer to `NextPreviousPage/Widgets/PageListWidget.php` as an example for using the Folder class.
+
