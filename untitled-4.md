@@ -1,7 +1,17 @@
 # Untitled10
 
-**Scott is a technical writer who creates user guides, developer documentation, engineering blog posts, white papers and technical training materials. He draws on over ten years working as a Support and Implementation Engineer in the Enterprise Software space.  
+
+
+
+
+1. First, render the header template. This is template is shown on all pages. The header template usually contains the main menu. The header template may contain widgets, which are helper components that the body template calls.
+
+When a user makes a URL request to a web site running Frameplicity, the framework constructs the result page by applying the header, body and footer templates to one or more pages. These templates are explained below.
+
+Frameplicity renders a page while processing it. Below is a high-level explanation of how page rendering works.  
   
- Scott created his own web application framework to teach programming to beginners. His writings on this framework are showcased in his portfolio below.  
+ ![](https://scottschwarz77.gitbooks.io/how-to-write-large-programs/content/assets/fp-renderpage.png)
+
+**  
 **
 
